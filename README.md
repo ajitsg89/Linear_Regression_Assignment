@@ -89,12 +89,14 @@ They have contracted a consulting company to understand the factors on which the
 
 11)There is inverse relation between bike demand and hum/windspeed
 
-12)Training Data set Stats - 1)R-squared = 0.832
+12)Training Data set Stats - 
+                    1)R-squared = 0.832
 
                     2)Adj. R-squared = 0.829
 
                     3)Error terms are normally distributed for training data set
-13)Testing Data set Stats - 1)R-squared = 0.816
+13)Testing Data set Stats - 
+                   1)R-squared = 0.816
 
                    2)Adj. R-squared = 0.808
 
