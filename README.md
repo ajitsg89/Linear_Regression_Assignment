@@ -40,7 +40,7 @@ You are required to model the demand for shared bikes with the available indepen
 
 3)There are more rental bike users when wheather is clear to partly cloudy
 
-4)There is not even single day on which heavy rain/snow has occured
+4)There is not even single bike sharing demand on which heavy rain/snow has occured
 
 5)Usage of bike on weekdays is slighlty highrer than holidays
 
