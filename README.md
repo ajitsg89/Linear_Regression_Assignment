@@ -46,9 +46,9 @@ You are required to model the demand for shared bikes with the available indepen
 
 6)Usage of bike is similiar irrespective of being working day or not
 
-7) There is direct relation between bike demand and temp/atemp
+7)There is direct relation between bike demand and temp/atemp
 
-8) There is inverse relation between bike demand and hum/windspeed
+8)There is inverse relation between bike demand and hum/windspeed
 
 <!-- You can include any other section that is pertinent to your problem -->
 
