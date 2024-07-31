@@ -38,17 +38,19 @@ You are required to model the demand for shared bikes with the available indepen
 
 2)In 2019 there are more rental bike users than in 2018
 
-3)There are more rental bike users when wheather is clear to partly cloudy
+3)There are more booking in the months May, June, July, Aug, Sept and Oct.
 
-4)There is not even single bike sharing demand on which heavy rain/snow has occured
+4)There are more rental bike users when wheather is clear to partly cloudy
 
-5)Usage of bike on weekdays is slighlty highrer than holidays
+5)There is not even single bike sharing demand on which heavy rain/snow has occured
 
-6)Usage of bike is similiar irrespective of being working day or not
+6)Usage of bike on weekdays is slighlty highrer than holidays
 
-7)There is direct relation between bike demand and temp/atemp
+7)Usage of bike is similiar irrespective of being working day or not
 
-8)There is inverse relation between bike demand and hum/windspeed
+8)There is direct relation between bike demand and temp/atemp
+
+9)There is inverse relation between bike demand and hum/windspeed
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -77,38 +79,39 @@ They have contracted a consulting company to understand the factors on which the
 
 5)In 2019 there are more rental bike users than in 2018
 
-6)There are more rental bike users when wheather is clear to partly cloudy
+6)There are more booking in the months May, June, July, Aug, Sept and Oct.
 
-7)There is not even single day on which heavy rain/snow has occured
+7)There are more rental bike users when wheather is clear to partly cloudy
 
-8)Usage of bike on weekdays is slighlty highrer than holidays
+8)There is not even single day on which heavy rain/snow has occured
 
-9)Usage of bike is similiar irrespective of being working day or not
+9)Usage of bike on weekdays is slighlty highrer than holidays
 
-10)There is direct relation between bike demand and temp/atemp
+10)Usage of bike is similiar irrespective of being working day or not
 
-11)There is inverse relation between bike demand and hum/windspeed
+11)There is direct relation between bike demand and temp/atemp
 
-12)Training Data set Stats - 
+12)There is inverse relation between bike demand and hum/windspeed
+
+13)Training Data set Stats - 
 
                     1)R-squared = 0.832
 
                     2)Adj. R-squared = 0.829
 
                     3)Error terms are normally distributed for training data set
-13)Testing Data set Stats - 
+14)Testing Data set Stats - 
 
-                   1)R-squared = 0.816
+                   1)R-squared = 0.8038
 
-                   2)Adj. R-squared = 0.808
+                   2)Adj. R-squared = 0.7944
 
-                   3)Error terms are normally distributed for test data set
                    
-14)R-squared and Adj. R-squared values for both training and test data is almost same
+15)R-squared and Adj. R-squared values for both training and test data is almost same
 
-15)Linear Regression Model (Line of best fit) - Based on Training data set
+16)Linear Regression Model (Line of best fit) - Based on Training data set
 
-cnt = 0.2259*yr - 0.0930*holiday + 0.6200*temp - 0.2868*hum - 0.2059*windspeed + 0.0800*season_Summer + 0.1390*season_Winter - 0.0482*mnth_July + 0.0944*mnth_Sept - 0.1914*weathersit_Light Rain or Snow + 0.2682 
+cnt = 0.2259yr - 0.0930holiday + 0.6200temp - 0.2868hum - 0.2059windspeed + 0.0800season_Summer + 0.1390season_Winter - 0.0482mnth_July + 0.0944mnth_Sept - 0.1914weathersit_Light Rain or Snow + 0.2682 
 
 ## Libraries version
 - Pandas: 2.2.2
